@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Car rent | Аренда авомобилей</title>
+    
+    <style>
+        .header{
+            margin: 0;
+            font-size: 50px;
+        }
+        .paragraph{
+            font-size: 22px;
+            margin: 5px;
+        }
+        .list{
+            font-size: 20px;
+        }
+                
+    </style>
+</head>
+<body class="main_body">
+    <h1 class="header header_underline">Заголовок первого уровня</h1>
+
+    <p class="paragraph">Первый абзац произвольно написанного текста</p>
+    <p class="paragraph">Второй абзац произвольно написаного текста:)</p>
+    <p class="paragraph">И, невероятный, третий абзац произвольно написанного текста:)))</p>
+
+    <h2 class="header">Заголовок второго уровня</h2>
+
+    <p class="paragraph">Первый абзац после менее важного заголовка.</p>
+    <p class="paragraph">И, наконец, второй абзац произвольно написанного текста после менее важного абзаца</p>
+
+    <img src="img/john.jpg" width="500" alt="Джон Уик" title="Джон Уик">
+    <br><br>
+    
+
+    <p class="paragraph"><strong>Что взять на тренировку:</strong></p>
+
+    <ol class="list">
+        <li>Футбольные бутсы</li>
+        <li>Вратарские перчатки</li>
+        <li>Термобельё</li>
+        <li>Шорты с футболкой</li>
+        <li>Носки</li>
+    </ol>
+    <br><br>
+    
+    <p class="paragraph"><strong>Список продуктов:</strong></p>
+
+    <ul class="list">
+        <li>Молоко</li>
+        <li>Хлеб</li>
+        <li>Сыр тостовый</li>
+        <li>Колбаса</li>
+        <li>Гречка</li>
+        <li>Курица</li>
+    </ul>
+    <br><br>
+
+    <h2>Форма</h2>
+
+    <form class="form" method="GET">
+
+    <div>
+        <label for="form_name">Ваше имя</label>
+        <input type="text" name="name" placeholder="Ваше имя" class="form_field" id="form_name">
+        <br><br>
+    </div>
+
+    <div>
+        <label for="form_tel">Ваш телефон</label>
+        <input type="tel" name="phone" required placeholder="Ваш телефон" class="form_field" id="form_tel">
+        <br><br>
+    </div>
+
+    <div>
+        <label for="form_email">Ваш email</label>
+        <input type="email" name="email" required placeholder="Ваш email" class="form_field" id="form_email">
+        <br><br>
+    </div>
+
+    <div>
+        <label for="form_msg">Ваше сообщение</label>
+        <textarea id="form_msg" placeholder="Ваше сообщение" cols="25" rows="5"></textarea>
+        <br><br>
+    </div>
+
+    <button type="submit">Отправить форму</button>
+
+    </form>
+</body>
+</html>
