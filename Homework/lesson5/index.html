@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Работа в автосервисе</title>
+</head>
+<body>
+    <h1 align="center"><strong>Запоните форму для подачи заявки на работу в автосервисе</strong></h1>
+
+    <form method="POST">
+        <fieldset style="margin: 0 auto; padding: 15px; width: 600px;">
+            <legend>Контактная информация</legend>
+         <table>
+             <tr>
+                 <td align="left" width="100">Имя</td>
+                 <td><input type="text" name="nickname" required maxlength="50" size="20"></td>
+             </tr>
+             <tr>
+                 <td align="left" width="100">Телефон</td>
+                 <td><input type="tel" name="phone" maxlength="50" size="20"></td>
+             </tr>
+             <tr>
+                 <td align="left" width="100">Email</td>
+                 <td><input type="email" name="mail" required maxlength="50" size="20"></td>
+             </tr>
+
+          </table>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset style="margin: 0 auto; padding: 15px; width: 600px;">
+            <legend>Персональная информация</legend>
+            <table>
+                <tr>
+                    <td align="left" width="100">Ваш возраст</td>
+                    <td><input type="text" required name="age" maxlength="50" size="20"></td>
+                </tr>
+
+                <tr>
+                    <td align="left" width="100">Ваш пол</td>
+                    <td>
+                      <select>
+                        <option selected value="man">Мужчина</option>
+                        <option value="woman">Женщина</option>
+                      </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="left" width="100">Перечислите<br>личные<br>качества</td>
+                    <td><textarea id="form_msg" cols="21" rows="5" style="margin: 0 auto;"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset style="margin: 0 auto; padding: 15px; width: 600px;">
+            <legend>Любимые марки автомобилей</legend>         
+            
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="car" value="bmw">BMW</td>
+                    <td><input type="checkbox" name="car" value="mercedes">Mercedes</td> 
+                    <td><input type="checkbox" name="car" value="toyota">Toyota</td> 
+                    <td><input type="checkbox" name="car" value="audi">Audi</td>  
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="car" value="volkswagen">Volkswagen</td>
+                    <td><input type="checkbox" name="car" value="honda">Honda</td> 
+                    <td><input type="checkbox" name="car" value="ford">Ford</td> 
+                    <td><input type="checkbox" name="car" value="skoda">Skoda</td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+        <br>
+
+        <p style="text-align: center;"><button type="submit">Отправить форму</button></p>
+    </form>
+</body>
+</html>
