@@ -7,8 +7,52 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Segoe UI';
+}
 .wrap_page__header{
-padding: 20px 0;
-color: white;
-text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bg-green{
+    background: green;
+}
+
+.wrap_page__services{
+    text-align: center;
+}
+
+.bg-red{
+    background: red;
+}
+
+.wrap_page__contacts{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.container{
+    width: 850px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+.bg-orange{
+    background: orange;
+}
+
+.bg-brown{
+    background: brown;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 13px;
 }
