@@ -1,0 +1,36 @@
+*   {
+    padding: 0;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrap_page__header{
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bg-green{
+    background: green;
+}
+
+.wrap_page__services{
+    text-align: center;
+}
+
+.wrap_page__contacts{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.wrap_page__contacts_header{
+    text-align: center;
+}
