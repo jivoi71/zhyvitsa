@@ -14,12 +14,16 @@
     height: 675px;
     padding: 0 15px;
     margin: 0 auto;
-    background: #f6f5f3;
+    background: url(../img/bg.png) no-repeat top center;
+    background-size: cover;
+
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
@@ -59,21 +63,3 @@
     justify-content: center;
 }
 
-
-#holder {
-    width: 270px;
-    height: 305px;
-}
-
-#earphones {
-    justify-content: flex-end;
-    width: 213px;
-    height: 247px;
-}
-
-#cup {
-    align-content: flex-end;
-    justify-content: flex-end;
-    width: 203px;
-    height: 208px;
-}
